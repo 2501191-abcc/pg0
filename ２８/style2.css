@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-color: #FCECEA;
+}
+
+.global_nav{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #CF6E6E;
+    color: #FFFFFF;
+}
+
+.global_nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center; 
+}
+
+.global_nav a{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.global_nav a:hover{
+    background-color: #A43737;
+}
+
+.favorite_food{
+    margin-top: 5%;
+}
+
+.favorite_food h2{
+    text-align: center;
+}
+
+.explanation_div{
+    display: flex;
+    margin-top: 20px;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    background-color: #FFB2AE;
+    font-size: 1.3vmax;
+}
+
+.explanation_div img{
+    width: 30%;
+    height: 300px;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+.details_div h2{
+    text-align: center;
+}
+
+.details_div a{
+    color: #665990;
+}
+
+.return_HOME{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #AAA5D1;
+}
+
+.return_HOME:hover{
+    background-color: #574B90;
+}
+
+.return_HOME a{
+    text-decoration: none;
+    color: white;
+}
+

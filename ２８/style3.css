@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background-color: #FFF4e1;
+}
+
+.global_nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #F99292;
+    color: #FFFFFF;
+}
+
+.global_nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center; 
+}
+
+.global_nav a{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.global_nav a:hover{
+    background-color: #FB7D79;
+}
+
+.pet_sweets_intro{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.intro_ul{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.pet_sweets_intro li{
+    list-style: none;
+}
+
+.cp_cssslider02 {
+    width: 50%;
+    margin: 2em auto;
+    padding-top: 30%;
+    position: relative;
+    text-align: center;
+}
+
+.cp_cssslider02 > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s;
+    border-radius: 3px;
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+
+.cp_cssslider02 input[name='cp_switch'] {
+    display: none;
+}
+
+.cp_cssslider02 label {
+    margin: 15px 5px 0 5px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    opacity: 0.6;
+    border-radius: 3px;
+    padding: 0;
+}
+
+.cp_cssslider02 label:hover {
+    opacity: 0.9;
+}
+
+.cp_cssslider02 label img {
+    display: block;
+    width: 40px;
+    border-radius: 2px;
+}
+
+.cp_cssslider02 input[name='cp_switch']:checked + label {
+    border: 2px solid #FF7043;
+    opacity: 1;
+}
+
+.cp_cssslider02 input[name='cp_switch'] ~ img {
+    opacity: 0;
+}
+
+.cp_cssslider02 input[name='cp_switch']:checked + label + img {
+    opacity: 1;
+}
+
+img{
+    width: 100%;
+    height: 80%;
+}
+
+.return_HOME{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #AAA5D1;
+}
+
+.return_HOME:hover{
+    background-color: #574B90;
+}
+
+.return_HOME a{
+    text-decoration: none;
+    color: white;
+}
