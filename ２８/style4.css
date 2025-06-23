@@ -39,7 +39,7 @@ body{
 
 .sideber{
     position: fixed;
-    top: 10%;
+    top: 5%;
     left: 0;
     height: calc(100vh - 30px);
     width: 30%;
@@ -66,6 +66,7 @@ body{
 }
 
 .origin_div{
+    margin-top: 3%;
     margin-left: 30%;
     width: 70%;
     padding: 20px;
